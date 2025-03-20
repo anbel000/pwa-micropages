@@ -1,0 +1,18 @@
+{
+  "cwd": "D:\\MicroPages App",
+  "type": [
+    "web"
+  ],
+  "name": "micropages-app",
+  "framework": "react",
+  "template": "tabs",
+  "bundler": "vite",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": true,
+    "color": "#36328e",
+    "darkMode": true,
+    "iconFonts": true
+  },
+  "customBuild": false
+}
