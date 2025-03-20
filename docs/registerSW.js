@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/pwa-micropages/sw.js', { scope: '/pwa-micropages/' })})}

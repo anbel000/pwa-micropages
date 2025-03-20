@@ -2,7 +2,7 @@
     "name": "Micropages",
     "short_name": "Micropages",
     "description": "Una app creada con Framework7 y React.",
-    "start_url": ".",
+    "start_url": "/pwa-micropages/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#008080",

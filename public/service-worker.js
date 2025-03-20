@@ -4,8 +4,6 @@ self.addEventListener('install', (event) => {
         return cache.addAll([
           '/pwa-micropages/',
           '/pwa-micropages/index.html',
-          '/pwa-micropages/assets/**/*',
-          '/pwa-micropages/icons/*',
           '/pwa-micropages/manifest.json'
         ]);
       })
