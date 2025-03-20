@@ -2,11 +2,11 @@ self.addEventListener('install', (event) => {
     event.waitUntil(
       caches.open('app-cache').then((cache) => {
         return cache.addAll([
-          '/',
-          '/index.html',
-          '/assets/**/*',
-          '/icons/*',
-          '/manifest.json'
+          '/pwa-micropages/',
+          '/pwa-micropages/index.html',
+          '/pwa-micropages/assets/**/*',
+          '/pwa-micropages/icons/*',
+          '/pwa-micropages/manifest.json'
         ]);
       })
     );
